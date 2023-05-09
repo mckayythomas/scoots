@@ -1,0 +1,633 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lobster', cursive;
+}
+
+p, a, li {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+header {
+    display:flex;
+    justify-content: left;
+    background-color: #ffe806;
+    padding: 10px;
+}
+
+header h1 {
+    margin-left: 5px;
+    color: #107D90;
+}
+
+header p {
+    margin-top: -25px;
+    margin-left: 5px;
+    color: #107D90;
+}
+
+.logo {
+    max-width: 100px;
+    margin: 20px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.logo img {
+    background-color: #107D90;
+    max-width: 100%;
+    border-radius: 75px 75px 75px 75px;
+    padding: 8px;
+}
+
+.nav {
+    background-color: #463740;
+}
+
+.nav nav ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-inline-start: 0;
+}
+
+nav ul li {
+    flex: 1;
+    padding: 20px 40px 20px 40px;
+    cursor: pointer;
+}
+
+nav ul li a {
+    color: #e7dfd9;
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
+}
+
+nav ul li:hover a {
+    color: #463740;
+}
+
+nav ul li:hover {
+    background-color: #e7dfd9;
+}
+
+.navigation li {
+    list-style: none;
+}
+
+.navigation li:first-child {
+    display: none;
+}
+
+body {
+    background-image: url(/scoots/scoots-images/background-image-min.jpg);
+    background-position: center;
+}
+
+main {
+    background-color: #e7dfd9cc;
+    z-index: 1;
+    margin: 10vw 14vw 10vw 14vw;
+    padding: 30px;
+    color:#463740;
+}
+
+.home-title {
+    font-size: 3vw;
+}
+
+.current-weather-info {
+    background-color: #463740;
+    margin: 10px;
+    padding: 10px;
+    color:#e7dfd9;
+    float: right;
+    font-size: 1.25vw;
+}
+
+.current-weather-info h2 {
+    text-align: center;
+    margin: 3px;
+}
+
+.current-weather-info p {
+    margin: 3px;
+    text-align: center;
+}
+
+.current-weather-info p:first-child {
+    margin-top: 8px;
+}
+
+.hidden2 {
+    display: none;
+}
+
+.five-day-forcast h2 {
+    text-align: center;
+    margin: 10px;
+    font-size: 2.5vw;
+}
+
+.five-day-forcast-data {
+    display: flex;
+    justify-content: center;
+    background-color: #463740;
+    margin: 0 2vw 0 2vw;
+    padding: 7px;
+}
+
+.five-day-forcast-data div {
+    text-align: center;
+    margin: 5px 1.5vw 5px 1.5vw;
+    color: #e7dfd9;
+    font-size: 1.25vw;
+}
+
+.locations {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.locations-title {
+    text-align: center;
+    grid-column: 1/3;
+    margin-top: 30px;
+    font-size: 3vw;
+}
+
+.puerta-maya {
+    display: flex;
+    grid-column: 1/3;
+    align-items: center;
+    margin: 20px;
+}
+
+.puerta-maya-img-div img {
+    max-width: 100%;
+}
+
+.puerta-maya-img-div {
+    flex: 1;
+}
+
+.puerta-maya-div {
+    text-align: center;
+    padding: 15px;
+    background-color: #463740;
+    color: #e7dfd9;
+    flex: 1;
+    font-size: 1.5vw;
+    margin-right: 20px;
+}
+
+.playa-del-carmen {
+    display: flex;
+    grid-column: 1/3;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin: 20px;
+}
+
+.playa-del-carmen-img-div img {
+    max-width: 100%;
+}
+
+.playa-del-carmen-img-div {
+    flex: 1;
+}
+
+.playa-del-carmen-div {
+    text-align: center;
+    padding: 15px;
+    background-color: #463740;
+    color: #e7dfd9;
+    flex: 1;
+    font-size: 1.5vw;
+    margin-left: 20px;
+}
+
+.ready {
+    text-align: center;
+    grid-column: 1/3;
+    background-color: #ffe806;
+    padding: 20px;
+    margin: 0 14vw 0 14vw;
+    border-radius: 55px;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.ready a {
+    color: #107D90;
+}
+
+.contact-info {
+    grid-column: 1/2;
+    margin: 20px 0 0 20px;
+    font-size: 1.3vw;
+}
+
+.social-media {
+    grid-column: 2/3;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    margin-right: 20px;
+}
+
+.social-media img {
+    max-width: 100%;
+}
+
+.twitter {
+    max-width: 12%;
+}
+
+.facebook {
+    max-width: 16%;
+    margin-bottom: -8px;
+}
+
+.instagram {
+    max-width: 13%;
+    margin-bottom: -3px;
+}
+
+footer {
+    background-color: #ffe806;
+    text-align: center;
+    color: #107D90;
+    padding: 20px;
+    font-size: 1.5vw;
+}
+
+footer a {
+    color: #107D90;
+}
+
+.active {
+    background-color: #e7dfd9;
+}
+
+.active a {
+    color: #463740;
+}
+
+/* ATTRIBUTIONS CSS*/
+
+.attributions {
+    text-align: center;
+    margin: 175px;
+}
+
+.attributions li {
+    list-style: none;
+}
+
+/* FORM CSS */
+
+.form-general-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.form-general-info h1 {
+    grid-column: 1/3;
+    text-align: center;
+}
+
+.form-general-info p {
+    grid-column: 1/3;
+
+}
+
+.scooters-form {
+    grid-column: 1/2;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+    padding: 20px 9vw 20px 9vw;
+}
+
+.four-wheeled-form {
+    grid-column: 2/3;
+    margin: 20px 0 20px 0;
+    padding: 20px 9vw 20px 9vw;
+}
+
+.details-form {
+    text-align: center;
+}
+
+.details-form a {
+    color: #107D90;
+}
+
+.contact-us-title{
+    text-align: center;
+    margin: 30px 0 20px 0;
+}
+
+.contact-us-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0px;
+    justify-items: center;
+    font-family: 'Oswald', sans-serif;
+    row-gap: 15px;
+}
+
+.full-name {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.email {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.phone {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.rental-type {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.comments {
+    grid-column: 1/3;
+    grid-row: 3/5;
+    margin: 0px 40px 0px 40px;
+}
+
+.comments textarea {
+    width: 50vw;
+    margin: 0px 4vw 0px 4vw;
+}
+
+.comments label {
+    margin: 0px 4vw 0px 4vw;
+}
+
+.submit {
+    grid-column: 1/3;
+    grid-row: 5/6;
+    text-align: center;
+}
+
+.submit, .comments, .rental-type, .phone, .email, .full-name {
+    max-width: 100%;
+}
+
+.maps {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px 0 20px 0;
+}
+
+.puerta-maya-map {
+    grid-column: 1/2;
+    grid-row: 1;
+    text-align: center;
+    margin: 15px;
+}
+
+.puerta-maya-map h2, .playa-del-carmen-map h2 {
+    margin: 10px;
+}
+
+.puerta-maya-map iframe {
+    max-width: 100%;
+
+}
+
+.playa-del-carmen-map {
+    grid-column: 2/3;
+    grid-row: 1;
+    text-align: center;
+    margin: 15px;
+}
+
+.playa-del-carmen-map iframe {
+    max-width: 100%;
+}
+
+.form-contact-info {
+    grid-column: 1/3;
+    display: grid;
+}
+
+.form-contact-info .contact-info {
+    grid-column: 1/2;
+    grid-row: 1;
+}
+
+.form-contact-info .social-media {
+    grid-column: 2/3;
+    grid-row: 1;
+}
+
+/* THANK YOU CSS*/
+
+.thank-you {
+    margin: 150px;
+    text-align: center;
+}
+
+.thank-you h1{
+    font-size: 6vw;
+}
+
+.thank-you p {
+    font-size: 2vw;
+}
+
+/* TOURS CSS */
+
+.tours-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.tours1 picture img, .tours2 picture img, .tours3 picture img,
+.tours4 picture img,.tours5 picture img, .tours6 picture img,
+.tours7 picture img, .tours8 picture img, .tours9 picture img {
+    max-width: 100%;
+}
+
+.tours-main h1 {
+    grid-column: 1/3;
+    text-align: center;
+}
+
+.tours1 {
+    grid-column: 1/2;
+}
+.tours3 {
+    grid-column: 1/2;
+}
+.tours5 {
+    grid-column: 1/2;
+}
+.tours7 {
+    grid-column: 1/2;
+}
+
+.tours2 {
+    grid-column: 2/3;
+}
+.tours4 {
+    grid-column: 2/3;
+}
+.tours6 {
+    grid-column: 2/3;
+}
+.tours8 {
+    grid-column: 2/3;
+}
+
+/* RESERVATIONS CSS */
+.reservation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+label {
+    font-family: 'Oswald', courier;
+    font-weight: 500;
+}
+
+.reservation-date {
+    display: flex;
+    gap: 20px;
+}
+
+.send-reservation {
+    gap: 20px;
+}
+
+.reservation-body main h1 {
+    text-align: center;
+}
+
+/* rentals CSS */
+
+.rentals {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+.info h3, .info h2, .info p, .info h4 {
+    grid-column: 1/3;
+    text-align: center;
+}
+
+.reservations-info {
+    grid-column: 1/2;
+}
+
+.walkin-info {
+    grid-column: 2/3;
+}
+
+.card0 {
+    display: flex;
+    align-items: center;
+}
+
+.card0 picture {
+    max-width: 50%;
+}
+
+.card0 picture img {
+    max-width: 100%;
+}
+
+.card1 {
+    display: flex;
+    align-items: center;
+    margin: 35px 0 35px 0;
+}
+
+.card2 {
+    display: flex;
+    align-items: center;
+    margin: 35px 0 35px 0;
+}
+
+.card3 {
+    display: flex;
+    align-items: center;
+    margin: 35px 0 35px 0;
+}
+
+.card4 {
+    display: flex;
+    align-items: center;
+    margin: 35px 0 35px 0;
+}
+
+.card5 {
+    display: flex;
+    align-items: center;
+    margin: 35px 0 35px 0;
+}
+
+.card1 picture {
+    max-width: 50%;
+}
+
+.card2 picture {
+    max-width: 50%;
+}
+
+.card3 picture {
+    max-width: 50%;
+}
+
+.card4 picture {
+    max-width: 50%;
+}
+
+.card5 picture {
+    max-width: 50%;
+}
+
+.card1 picture img {
+    max-width: 100%;
+}
+
+.card2 picture img {
+    max-width: 100%;
+}
+
+.card3 picture img {
+    max-width: 100%;
+}
+
+.card4 picture img {
+    max-width: 100%;
+}
+
+.card5 picture img {
+    max-width: 100%;
+}
+
+.rentals-contact-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.rentals-title {
+    text-align: center;
+}

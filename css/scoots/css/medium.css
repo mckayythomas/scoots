@@ -1,0 +1,49 @@
+@media screen and (min-width: 750px) and (max-width: 999px) {
+    body {
+        background-size: 162%;
+    }
+
+    header h1 {
+        font-size: 5vw;
+    }
+
+    footer {
+        font-size: 2vw;
+    }
+
+    .tours {
+        background-size: 200%;
+    }
+
+    .reservation-body {
+        background-size: 420%;
+    }
+
+    .contact-us {
+        background-size: 245%;
+    }
+
+    .send-reservation {
+        flex-direction: column;
+    }
+
+    .reservation-info {
+        margin: 0 9vw 0 9vw;
+    }
+
+    .rentals-body {
+        background-size: 192%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .form-hidden {
+        display: none;
+    }   
+}
+
+@media screen and (max-width: 845px) {
+    .tours {
+        background-size: 400%;
+    }   
+}
